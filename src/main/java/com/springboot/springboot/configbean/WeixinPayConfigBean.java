@@ -1,9 +1,8 @@
-package com.springboot.springboot;
+package com.springboot.springboot.configbean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.ConfigurationPropertiesBinding;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /*
@@ -11,8 +10,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Configuration
-@ConfigurationProperties(prefix = "wxpayconfig")
-public class WeiXinPayConfig {
+@PropertySource("classpath:config/wxpayconfig.properties")
+@ConfigurationProperties(prefix = "")
+public class WeixinPayConfigBean {
     private String app_id;
     private String app_secret;
 
