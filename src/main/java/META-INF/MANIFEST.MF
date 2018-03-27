@@ -16,5 +16,5 @@ Class-Path: log4j-api-2.10.0.jar spring-boot-starter-2.0.0.RELEASE.jar
  .2.jar hibernate-validator-6.0.7.Final.jar spring-web-5.0.4.RELEASE.j
  ar spring-context-5.0.4.RELEASE.jar spring-boot-starter-json-2.0.0.RE
  LEASE.jar snakeyaml-1.19.jar
-Main-Class: com.springboot.springboot.SpringbootApplication
+Main-Class: com.schaffer.webapp.SpringbootApplication
 

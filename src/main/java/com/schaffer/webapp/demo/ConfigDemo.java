@@ -1,6 +1,6 @@
-package com.springboot.springboot.demo;
+package com.schaffer.webapp.demo;
 
-import com.springboot.springboot.configbean.WeixinPayConfigBean;
+import com.schaffer.webapp.configbean.WeixinPayConfigBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
